@@ -228,7 +228,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
                             text: widget.product.rating,
                             style: Theme.of(context)
                                 .textTheme
-                                .bodyText2
+                                .bodyMedium
                                 ?.copyWith(fontWeight: FontWeight.bold),
                             children: [
                               TextSpan(
@@ -424,7 +424,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
         textAlign: TextAlign.justify,
         text: TextSpan(
           text: more ? description : description.substring(0, 300),
-          style: Theme.of(context).textTheme.bodyText2,
+          style: Theme.of(context).textTheme.bodyMedium,
           children: [
             TextSpan(
               text: more ? " ...less" : " ...more",

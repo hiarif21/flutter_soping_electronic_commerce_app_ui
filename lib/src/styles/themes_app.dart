@@ -8,7 +8,7 @@ class ThemesApp {
     scaffoldBackgroundColor: ColorsApp.neutral100,
     fontFamily: GoogleFonts.inter().fontFamily,
     textTheme: const TextTheme(
-      bodyText2: TextStyle(color: ColorsApp.slate900),
+      bodyMedium: TextStyle(color: ColorsApp.slate900),
     ),
   );
 
@@ -17,7 +17,7 @@ class ThemesApp {
     scaffoldBackgroundColor: ColorsApp.slate900,
     fontFamily: GoogleFonts.inter().fontFamily,
     textTheme: const TextTheme(
-      bodyText2: TextStyle(color: ColorsApp.slate100),
+      bodyMedium: TextStyle(color: ColorsApp.slate100),
     ),
   );
 }
